@@ -1,26 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <mi-componente-1></mi-componente-1>
+  <miComponente2></miComponente2>
+  <mi-componente-3></mi-componente-3>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import miComponente1 from './components/background.vue'
+import miComponente2 from './components/login.vue'
+import miComponente3 from './components/opciones.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    miComponente1,
+    miComponente2,
+    miComponente3
   }
 }
+
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang='scss'>
+
 </style>
